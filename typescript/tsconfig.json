@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "html/dist"
+  },
+  "include": [
+    "src/ejemplos/",
+    "src/ejercicios"
+  ]
+}

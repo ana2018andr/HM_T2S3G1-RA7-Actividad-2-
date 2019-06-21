@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    (function () {
+        let  n , i: number ;
+        let p  , x , f  , s  : number;  
+        x = parseInt(prompt("Ingrese valor de x : "));
+        n = parseInt(prompt("Ingrese valor de n : "));
+        p = 1 ;
+        f = 1 ;
+        s = 1;
+        for (i = 1; i <= n - 1 ; i ++) {
+             f = f + 1;
+             p = p * x;
+             s = s * p/f;
+        }
+       
+        console.log("La sumatoria es  : " + s);    
+    })();
+</body>
+</html>
